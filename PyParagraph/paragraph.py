@@ -1,9 +1,15 @@
 import re
+import os
+
+
+path_to_dir = os.path.dirname(os.path.abspath(__file__))
+
+file_descriptor = os.path.join(path_to_dir, "paragraph2.txt")
 
 sent_count = -1
 letter_count = 0
 count = 0
-with open("paragraph2.txt") as inputfile: 
+with open(file_descriptor) as inputfile:
     text = inputfile.read()
     for letters in text:
         if not letters.isalpha():
