@@ -15,7 +15,7 @@ Emp ID,First Name,Last Name,DOB,SSN,State
 214,Sarah,Simpson,12/04/1985,***-**-8166,FL
 15,Samantha,Lara,09/08/1993,***-**-7526,CO
 411,Stacy,Charles,12/20/1957,***-**-8526,PA
-
+```
   * The `Name` column should be split into separate `First Name` and `Last Name` columns.
 
   * The `DOB` data should be re-written into `MM/DD/YYYY` format.
